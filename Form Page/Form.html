@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Form.css">
+    <title>Form</title>
+  </head>
+  <body>
+
+    <div class="main-box">
+      <div class="form-box">
+        <input type="text" placeholder="First Name" id="firstName"/>
+        <input type="text" placeholder="Last Name" id="lastName"/>
+        <input type="email" placeholder="Email-ID" id="email"/>
+        <input type="number" placeholder="Phone No" id="number"/>
+        <select name="States ">
+            <option selected="" value="Default">(Please select a country)</option>
+            <option value="DL">Delhi</option>
+            <option value="HR">Haryana</option>
+            <option value="UK">Uttarakhand</option>
+            <option value="UP">Uttar Pardesh</option>
+            <option value="TN">Tamil Nadu</option>
+            <option value="WB">West Bengal</option>
+        </select>
+        <input type="password" placeholder="Password" id="password"/>
+        <input type="password" placeholder="Re-Password" id="Re-Password"/>
+        <button type="submit" id="btn" onclick="submitForm()">Submit</button>
+      </div>
+
+    </div>
+
+    <script src="Form.js"></script>
+    </div>
+  </body>
+</html>
